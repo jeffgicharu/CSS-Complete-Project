@@ -186,3 +186,10 @@ a:active{
         scaleY(1);
     }
 }
+
+/* || FOOTER */
+
+.footer{
+    position: sticky;
+    bottom: 0;
+}
