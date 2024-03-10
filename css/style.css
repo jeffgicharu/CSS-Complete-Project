@@ -295,10 +295,20 @@ thead,tbody,tfoot,tr{
     font-weight: bold;
 }
 
-.menu__cr, .menu__sf{
+.menu__cr, .menu__sf, .menu__cs, .menu__header{
     color: var(--HIGHLIGHT-COLOR);
     font-weight: bold;
     height: 100%;
     display: grid;
     place-content: center;
+}
+
+.menu__header{
+    border-bottom: var(--BORDERS);
+}
+
+.menu__header .menu__item{
+    width: 100%;
+    padding: 1em;
+    border: medium ridge var(--BORDER-COLOR);
 }
